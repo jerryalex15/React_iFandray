@@ -1,14 +1,16 @@
-import React , {Component} from 'react';
+import React  from 'react';
+import AppBar from './AppBar';
+import Contents from './Contents';
 
-class Message extends Component {
-    state = {
-        personnes:[
-            
-        ]
-    }
+class Message extends React.Component {
 
     render(){
-        return <></>;
+        return (
+        <>
+            <AppBar></AppBar>
+            <Contents></Contents>
+        </>
+        );
     }
 }
 export default Message;

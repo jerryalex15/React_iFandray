@@ -1,0 +1,11 @@
+.avatar{
+    border: 1 solid rgb(123, 100, 213);
+    border-radius: 50px;
+}
+
+.circle{
+    border: 1 solid rgb(21, 156, 50);
+    height: 1rem;
+    width: 1rem;
+}
+
