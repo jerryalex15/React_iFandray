@@ -14,7 +14,11 @@ const CardAppBar: React.FC<CardAppBarProps> = (props) => {
                     <h3 className="text-lg font-normal">{props.text}<span className="circle"></span></h3>
                 </div>
             </section>
-            <button className="flex-1">...</button>
+            <section className="flex-1 space-y-3">
+                <button className="block">...</button>
+                <h5 className="block text-xs text-blue-400">2m</h5>
+            </section>
+            
         </div>
     );
 };
